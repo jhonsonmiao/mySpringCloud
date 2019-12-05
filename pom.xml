@@ -24,6 +24,8 @@
     <modules>
         <!--声明 eureka_server 为当前项目 子模块 ，以后有新的子模块添加也要在此添加-->
         <module>eureka_server</module>
+        <module>eureka_client</module>
+        <module>service_ribbon</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
